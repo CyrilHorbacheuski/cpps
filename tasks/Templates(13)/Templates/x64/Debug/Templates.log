@@ -1,0 +1,6 @@
+﻿  Templates.cpp
+c:\users\kiryl.harbacheuski\documents\c++\templates\templates\templates.cpp(29): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  c:\users\kiryl.harbacheuski\documents\c++\templates\templates\templates.cpp(28): note: while compiling class template member function 'VectorClass<std::string> VectorClass<std::string>::operator +(VectorClass<std::string>)'
+  c:\users\kiryl.harbacheuski\documents\c++\templates\templates\templates.cpp(82): note: see reference to function template instantiation 'VectorClass<std::string> VectorClass<std::string>::operator +(VectorClass<std::string>)' being compiled
+  c:\users\kiryl.harbacheuski\documents\c++\templates\templates\templates.cpp(72): note: see reference to class template instantiation 'VectorClass<std::string>' being compiled
+  Templates.vcxproj -> C:\Users\Kiryl.Harbacheuski\Documents\c++\Templates\x64\Debug\Templates.exe

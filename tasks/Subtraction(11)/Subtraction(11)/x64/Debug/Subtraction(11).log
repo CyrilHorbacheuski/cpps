@@ -1,0 +1,3 @@
+﻿  Subtraction(11).cpp
+C:\Users\Kiryl.Harbacheuski\documents\c++\Subtraction(11)\Subtraction(11)\Subtraction(11).cpp(27,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Subtraction(11).vcxproj -> C:\Users\Kiryl.Harbacheuski\documents\c++\Subtraction(11)\x64\Debug\Subtraction(11).exe

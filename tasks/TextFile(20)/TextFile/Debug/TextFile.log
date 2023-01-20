@@ -1,0 +1,4 @@
+﻿  TextFile.cpp
+C:\Users\Kiryl.Harbacheuski\Documents\c++\TextFile\TextFile\TextFile.cpp(37,26): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Kiryl.Harbacheuski\Documents\c++\TextFile\TextFile\TextFile.cpp(79,13): warning C4326: return type of 'main' should be 'int' instead of 'bool'
+  TextFile.vcxproj -> C:\Users\Kiryl.Harbacheuski\Documents\c++\TextFile\Debug\TextFile.exe

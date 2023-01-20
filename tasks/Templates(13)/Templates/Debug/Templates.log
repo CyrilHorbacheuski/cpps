@@ -1,0 +1,6 @@
+﻿  Templates.cpp
+c:\users\kiryl.harbacheuski\documents\c++\templates\templates\templates.cpp(23): warning C4018: '<': signed/unsigned mismatch
+  c:\users\kiryl.harbacheuski\documents\c++\templates\templates\templates.cpp(22): note: while compiling class template member function 'void VectorClass<std::string>::print(void)'
+  c:\users\kiryl.harbacheuski\documents\c++\templates\templates\templates.cpp(84): note: see reference to function template instantiation 'void VectorClass<std::string>::print(void)' being compiled
+  c:\users\kiryl.harbacheuski\documents\c++\templates\templates\templates.cpp(73): note: see reference to class template instantiation 'VectorClass<std::string>' being compiled
+  Templates.vcxproj -> C:\Users\Kiryl.Harbacheuski\Documents\c++\Templates\Debug\Templates.exe
