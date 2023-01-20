@@ -1,5 +1,0 @@
-﻿  Figures.cpp
-C:\Users\Kiryl.Harbacheuski\Documents\c++\Figures\Figures\Figures.cpp(31,21): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-C:\Users\Kiryl.Harbacheuski\Documents\c++\Figures\Figures\Figures.cpp(45,37): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-C:\Users\Kiryl.Harbacheuski\Documents\c++\Figures\Figures\Figures.cpp(48,30): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-  Figures.vcxproj -> C:\Users\Kiryl.Harbacheuski\Documents\c++\Figures\x64\Debug\Figures.exe

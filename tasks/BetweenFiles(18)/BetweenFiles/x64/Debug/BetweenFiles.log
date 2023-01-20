@@ -1,3 +1,0 @@
-﻿  BetweenFiles.cpp
-C:\Users\Kiryl.Harbacheuski\documents\c++\BetweenFiles\BetweenFiles\BetweenFiles.cpp(99,13): warning C4326: return type of 'main' should be 'int' instead of 'bool'
-  BetweenFiles.vcxproj -> C:\Users\Kiryl.Harbacheuski\documents\c++\BetweenFiles\x64\Debug\BetweenFiles.exe
