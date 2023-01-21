@@ -13,7 +13,9 @@ public:
         length = _l;
     }
     Array(const Array<T> &_arg) { // copy constructor
-        massive = _arg.massive;
+        for (int i = 0; i < _arg.length; i++)
+            addElement(_arg.massive[i]);
+
         length = _arg.length;
     }
     Array() {}
@@ -24,12 +26,12 @@ public:
 
         T* newMassive = new T[newLength];
 
-        for (int i = 0; i < length; i++) 
+        for (int i = 0; i < length; i++) {
             newMassive[i] = massive[i];
-        
-        for (int i = length-1; i < _rightOperand.length; i++) 
+        }
+        for (int i = length-1; i < _rightOperand.length; i++) {
             newMassive[i] = _rightOperand.massive[i];
-        
+        }
         Array<T> obj;
 
         obj.massive = newMassive;
@@ -67,6 +69,8 @@ int main() {
     mas1.addElement(-2);
 
     Array<int> mas2 = mas1; // using copy constructor
+
+    mas1.addElement(6);
 
     mas2.addElement(1);
 
