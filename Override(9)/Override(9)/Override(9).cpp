@@ -21,7 +21,7 @@ public:
     Array() {}
     ~Array() {}
 
-    Array operator |(Array _rightOperand) { // override arrays concat
+    Array<T> operator |(Array<T> _rightOperand) { // override arrays concat
         int newLength = length + _rightOperand.length;
 
         T* newMassive = new T[newLength];
@@ -37,7 +37,6 @@ public:
         obj.massive = newMassive;
 
         return obj;
-
     }
 
     void addElement(T _elem) {
@@ -52,15 +51,13 @@ public:
     }
 
     void checkInfo() {
-        for (int i = 0; i < length; i++) {
+        for (int i = 0; i < length; i++) 
             cout << massive[i] << " | ";
-        }
     }
 
 };
 
 int main() {
-
     int* a1 = new int[0];
     int* a2 = new int[0];
 
