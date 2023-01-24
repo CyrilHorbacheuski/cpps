@@ -15,7 +15,7 @@ public:
         rowsCount = n;
         columnsCount = m;
 
-        value = new T * [n * m];
+        value = new T * [n];
         for (int i = 0; i < n; i++)
             value[i] = new T[m];
     }
